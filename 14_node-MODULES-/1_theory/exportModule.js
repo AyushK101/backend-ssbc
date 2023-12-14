@@ -11,16 +11,11 @@ function binarySearch (arr,x)  {
 }
 
 console.log("searching file");
-
-export default {
-    linearSearch,
-    fun : function d() {
-        console.log("hi");
-    }
+//exposing details to the outer world
+module.exports = { 
+    x : "2341",
+    linear : linearSearch,
+    binary : binarySearch
 }
 
-export { //named
-    binarySearch,
-    linearSearch,
-    
-}
+// module.exports = linearSearch;

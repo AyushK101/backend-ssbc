@@ -1,5 +1,7 @@
 const fs = require('fs');
+
 const transformStream = require('stream'); //put a layer between readingStream and outputStream.
+
 let fileStream = fs.createReadStream(__dirname + "/text.txt"); //(setup a readable stream from the file) read the data chunk by chunk 
 let outputStream =  process.stdout; //storing the process.stdout stream inside a variable which is an output stream or writeable stream 
 

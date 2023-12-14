@@ -17,4 +17,5 @@ module.exports = {
     binary : binarySearch
 }
 
-// module.exports = linearSearch;
+module.exports = linearSearch; // module.exports is an object.
+
