@@ -9,13 +9,17 @@
 
 // ex: { fs-> open , close} , { http clientRequest -> response } , { eventEmitter -> newListener , removeListener} , 
 // { process -> exit , unCaughtExpression } etc
-//! some events don't need listeners , they have pre-defined listeners like `exit` of process , when emitter , listened by some internal thing automatically.
+// some events don't need listeners , they have pre-defined listeners like `exit` of process , when emitter , listened by some internal thing automatically.
 
 // They use eventEmitter class internally to do this.
 
 
 //! Reacting to events in Node.js involves attaching event listeners to specific objects or instances.
 //ex: <emitter>.on('event', <callback>) , <emitter>.addListener('event' , <callback>) , .once() , prependListener() etc 
+
+//! for example : when a stream reads a chunk , it emit a `data` event like this : 
+//? <readingStreamVariable>.emit('data');
+//?  then we can listen to it like <readingStreamVariable>.on('data',(data)=>{ //code });
 
 
 // THIS IS NODE'S EVENT DRIVEN ARCHITECTURE  

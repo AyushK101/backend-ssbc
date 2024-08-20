@@ -1,1 +1,1 @@
-// hello worldhello worldhello worldhello worldhello worldhello worldhello worldhello worldhello worldhello worldhello worldhello worldhello worldhello worldhello worldhello worldhello worldhello worldhello worldhello worldhello worlddsfjad;l
+process.stdout.write('hello world')   ;

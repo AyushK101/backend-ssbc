@@ -495,11 +495,17 @@ ex: `http://[2001.470.806d.1::9]:80`
 - `domain name server (DNS)` : mapping from url to its ip address.DNS resolves url into ip address.
 - `IP address` : an address using which you can `uniquely identify` a network or a computer system.
 - Over the internet every device has an IP address.
-
+- 
+- 
 
 - what kind of information is expected to be extracted out when we type `URL` , is somewhere written on some computer machines.We don't know where these computer machines residing on the internet.They must have a IP address.  
 
 how do we know what is the IP address ?
+- DNS resolver in your computer
+    1. provided by your ISP 
+    2. You manually provide a DNS resolver
+- https://medium.com/@aenkitchauhan/domain-name-system-dns-deep-dive-a4ccf1d5831f
+- 
 
 - DNS lookup : in dns lookup , we query that , `for this URL , can we get some IP address ?`
 - where this lookup happens ? 

@@ -28,7 +28,7 @@ console.log(myValue); // 42
 ```
 // exportModule.mjs
 export const var1 = 1;
-export function func() { /* ... */ }
+export function fun() { /* ... */ }
 
 
 // importModule.mjs
